@@ -21,6 +21,8 @@ DEV_GUILD_ID="DEV GUILD ID"
 SOUNDBOARD_ORIGIN="http://localhost:8888"
 SOUNDBOARD_PORT="8888"
 
+RIOT_API_KEY="RIOT API KEY"
+
 ```
 
 2) Install dependencies and prepare the database

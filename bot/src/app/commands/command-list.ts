@@ -17,6 +17,7 @@ import Record from "./src/record.js";
 import TrackJuan from "./src/track-juan.js";
 import UBS from "./src/ubs.js";
 import ToggleBadminton from "./src/toggle-badminton.js";
+import ToggleViktor from "./src/toggle-viktor.js";
 
 const commands = [
 	new Ping(),
@@ -35,6 +36,7 @@ const commands = [
 	new TrackJuan(),
 	new UBS(),
 	new ToggleBadminton(),
+	new ToggleViktor(),
 ] as Command[];
 
 export default commands.filter(command => {

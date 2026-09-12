@@ -10,3 +10,6 @@ export const DEV_GUILD_ID=process.env.DEV_GUILD_ID ?? "NOT_SET"
 
 export const SOUNDBOARD_ORIGIN=process.env.SOUNDBOARD_ORIGIN ?? ""
 export const SOUNDBOARD_PORT=process.env.SOUNDBOARD_PORT ? parseInt(process.env.SOUNDBOARD_PORT) : 3600
+
+// https://developer.riotgames.com/ — required for Viktor loss alerts
+export const RIOT_API_KEY=process.env.RIOT_API_KEY ?? ""
